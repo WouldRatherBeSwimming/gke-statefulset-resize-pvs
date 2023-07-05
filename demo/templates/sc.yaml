@@ -1,0 +1,10 @@
+############## VB
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: demo-rwo
+provisioner: pd.csi.storage.gke.io
+parameters:
+  type: pd-balanced
+allowVolumeExpansion: true
+############## VB

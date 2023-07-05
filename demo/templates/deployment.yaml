@@ -12,7 +12,8 @@ spec:
       name: my-data
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: "standard-rwo"
+      # refer to sc.yaml for demo-rwo definition
+      storageClassName: "demo-rwo"
       resources:
         requests:
           storage: 2Gi
